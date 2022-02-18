@@ -15,7 +15,7 @@ spring:
   profiles: local
   jpa:
     database: mysql
-    properties.hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL8Dialect
     hibernate:
       ddl-auto: create
     show-sql: true
@@ -33,7 +33,7 @@ spring:
   profiles: init
   jpa:
     database: mysql
-    properties.hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL8Dialect
     hibernate:
       ddl-auto: create
     show-sql: true
